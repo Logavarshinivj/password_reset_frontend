@@ -19,7 +19,7 @@ export default class Reset extends Component {
       handleSubmit(e){
         const{email}=this.state
         console.log(email)
-        fetch("https://password-reset-backend-hxce.vercel.app/forget-password",
+        fetch("https://password-reset-backend-x18u.vercel.app/forget-password",
         {
                 method: 'POST',
                 crossDomain: true,

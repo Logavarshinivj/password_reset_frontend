@@ -15,7 +15,7 @@ export default class user_component extends Component {
         // const{fname,lname,email,password}=User
        
         // console.log(email,password)
-        fetch("https://password-reset-backend-hxce.vercel.app/user-demo",
+        fetch("https://password-reset-backend-x18u.vercel.app/user-demo",
         {
                 method: 'POST',
                 crossDomain: true,

@@ -47,7 +47,7 @@ const handleSubmit=async(e)=>{
   // const{fname,lname,email,password}=User
   e.preventDefault()
   console.log(fname,lname,email,password)
-  let result=await fetch("https://password-reset-backend-hxce.vercel.app/register-demo",
+  let result=await fetch("https://password-reset-backend-x18u.vercel.app/register-demo",
   {
           method: 'POST',
           crossDomain: true,

@@ -8,7 +8,7 @@ export default function Login() {
     // const{fname,lname,email,password}=User
     e.preventDefault()
     console.log(email,password)
-    let result=await fetch("https://password-reset-backend-hxce.vercel.app/login-demo",
+    let result=await fetch("https://password-reset-backend-x18u.vercel.app/login-demo",
     {
             method: 'POST',
             crossDomain: true,
